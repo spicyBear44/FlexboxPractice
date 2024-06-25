@@ -1,7 +1,9 @@
 body {
     background:rgb(230,224,212);
     border-radius: 12px;
-    margin:0 center;
+    margin:45px;
+   
+
 
     }
 
@@ -28,8 +30,8 @@ h1 {
     min-width:80px;
     display:flex;
     flex-wrap:wrap;
-    align-items: space-between;
-    text-align:center
+    align-items: center;
+    text-align:center;
     }
 
 .icons {
@@ -61,7 +63,7 @@ h1 {
     border: 2px solid rgb(255, 255, 255);
     background-color:rgb(255, 255, 255);
     border-radius:28px;
-    margin:0 center;
+    
   }
     
 .box1,
@@ -69,7 +71,7 @@ h1 {
 .box3,
 .box4{
   align-items:center;
-  width:170px;
+  width:200px;
   height:280px;
   background-color:rgb(230,224,212);
   border-radius:28px;
@@ -93,16 +95,6 @@ h1 {
     transform: scale(1.04); 
 }
 
-#food {
-    font-size:20px;
-    color:black;
-    background-color: white;
-    margin:0;
-    text-align:center;
-    padding:8px;
-    border-radius:23px;
-}
-
 .box2 {
     background-image:url('images/Holly.jpg');
     border:4px solid rgb(230,224,212);
@@ -111,16 +103,6 @@ h1 {
 .box2:hover,
 .box2:focus{
     transform: scale(1.04); 
-}
-
-#cloth {
-    font-size:20px;
-    color:black;
-    background-color: white;
-    margin:0;
-    text-align:center;
-    padding:8px;
-    border-radius:23px;
 }
 
 .box3 {
@@ -134,16 +116,6 @@ h1 {
     transform: scale(1.04); 
 }
 
-#footy {
-    font-size:20px;
-    color:black;
-    background-color: white;
-    margin:0;
-    text-align:center;
-    padding:8px;
-    border-radius:23px;
-}
-
 .box4{
     background-image:url('images/cocbg.jpg');
     border:4px solid rgb(230,224,212);
@@ -154,7 +126,7 @@ h1 {
     transform: scale(1.04); 
 }
 
-#coc {
+#food, #cloth, #footy, #coc {
     font-size:20px;
     color:black;
     background-color: white;
