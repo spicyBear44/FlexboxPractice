@@ -21,16 +21,16 @@ h2 {
     background-color: white;
     min-height: 80px;
     max-height: 100px;
-    width: auto;
     padding: 75px;
     border-radius: 48px;
-    max-width: 200px;
+    max-width: 220px;
     min-width: 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin: 45px;
+    margin: 43px;
+    margin-left: 40px;
 }
 
 .icons {
@@ -62,6 +62,7 @@ h2 {
     background-color: rgb(255, 255, 255);
     border-radius: 28px;
     margin: 43px;
+    margin-left: 40px;
 }
 
 .box1,
@@ -75,7 +76,7 @@ h2 {
     border-radius: 28px;
     flex-shrink: 1;
     flex-grow: 1;
-    margin: 20px;
+    margin: 19px;
     cursor: pointer;
     transition: transform 0.3s ease;
     background-size: cover;
